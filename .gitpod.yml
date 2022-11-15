@@ -1,2 +1,5 @@
 tasks:
-  - command: ./gitpod-benchmark.sh
+  - prebuild: BUILD_ID=prebuild-faf7ed SERVER_URL=https://1337-jankeromnes-gitpodbench-zeir6pvaprp.ws-eu74.gitpod.io ./gitpod-benchmark.sh
+github:
+  prebuilds:
+    branches: true
